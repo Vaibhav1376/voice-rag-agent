@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Audio outputs & temporary audio cache
+*.mp3
+*.wav
+*.pcm
+temp/
+tmp/
+
+# Vector database storage & data
+qdrant_storage/
+data/
+
+# Uploaded test documents & binaries
+*.pdf
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
